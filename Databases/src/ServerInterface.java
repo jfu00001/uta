@@ -65,7 +65,9 @@ public class ServerInterface {
 		frame.setBounds(100, 100, 458, 860);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-
+		frame.setResizable(false);
+		
+		
 		// Server Panel
 		JLabel lblServer = new JLabel(" SERVER");
 		lblServer.setFont(new Font("Tahoma", Font.PLAIN, 30));
